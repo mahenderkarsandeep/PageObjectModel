@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T11:07:21 IST" name="Suite" finished-at="2024-03-06T11:09:25 IST" duration-ms="123502">
+    <groups>
+    </groups>
+    <test started-at="2024-03-06T11:07:21 IST" name="Test3" finished-at="2024-03-06T11:08:02 IST" duration-ms="40684">
+      <class name="orderCompletion.OrderCompletionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:orderCompletion.OrderCompletionTest@7d20d0b]" started-at="2024-03-06T11:07:21 IST" name="setUp" finished-at="2024-03-06T11:07:27 IST" duration-ms="5278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="endToEndTest()[pri:0, instance:orderCompletion.OrderCompletionTest@7d20d0b]" started-at="2024-03-06T11:07:27 IST" name="endToEndTest" finished-at="2024-03-06T11:08:02 IST" duration-ms="35084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orderCompletion.OrderCompletionTest@7d20d0b]" started-at="2024-03-06T11:08:02 IST" name="tearDown" finished-at="2024-03-06T11:08:02 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orderCompletion.OrderCompletionTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-03-06T11:08:02 IST" name="Test2" finished-at="2024-03-06T11:08:39 IST" duration-ms="37290">
+      <class name="orderCompletion.AddRemoveItemFromBasketTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:orderCompletion.AddRemoveItemFromBasketTest@6aaceffd]" started-at="2024-03-06T11:08:02 IST" name="setUp" finished-at="2024-03-06T11:08:07 IST" duration-ms="4442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addRemoveItem()[pri:0, instance:orderCompletion.AddRemoveItemFromBasketTest@6aaceffd]" started-at="2024-03-06T11:08:07 IST" name="addRemoveItem" finished-at="2024-03-06T11:08:39 IST" duration-ms="32563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orderCompletion.AddRemoveItemFromBasketTest@6aaceffd]" started-at="2024-03-06T11:08:39 IST" name="tearDown" finished-at="2024-03-06T11:08:39 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orderCompletion.AddRemoveItemFromBasketTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-03-06T11:08:39 IST" name="Test" finished-at="2024-03-06T11:09:03 IST" duration-ms="23644">
+      <class name="orderCompletion.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:orderCompletion.LoginTest@37271612]" started-at="2024-03-06T11:08:39 IST" name="setUp" finished-at="2024-03-06T11:08:44 IST" duration-ms="4259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:orderCompletion.LoginTest@37271612]" started-at="2024-03-06T11:08:44 IST" name="login" finished-at="2024-03-06T11:09:03 IST" duration-ms="19115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orderCompletion.LoginTest@37271612]" started-at="2024-03-06T11:09:03 IST" name="tearDown" finished-at="2024-03-06T11:09:03 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orderCompletion.LoginTest -->
+    </test> <!-- Test -->
+    <test started-at="2024-03-06T11:09:03 IST" name="Test1" finished-at="2024-03-06T11:09:25 IST" duration-ms="21833">
+      <class name="orderCompletion.CreateNewAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:orderCompletion.CreateNewAccount@4e3958e7]" started-at="2024-03-06T11:09:03 IST" name="setUp" finished-at="2024-03-06T11:09:07 IST" duration-ms="4336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newAccount()[pri:0, instance:orderCompletion.CreateNewAccount@4e3958e7]" started-at="2024-03-06T11:09:07 IST" name="newAccount" finished-at="2024-03-06T11:09:25 IST" duration-ms="17210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orderCompletion.CreateNewAccount@4e3958e7]" started-at="2024-03-06T11:09:25 IST" name="tearDown" finished-at="2024-03-06T11:09:25 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orderCompletion.CreateNewAccount -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
